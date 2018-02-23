@@ -304,6 +304,7 @@ public class Email extends javax.swing.JFrame {
         if(EmailCheck()==true){
             if(txtEmail.getText()!="" && txtIPSP.getText()!=""&& pwd!=""){
                 escribirArch(txtEmail.getText()+" "+pwd+" "+txtIPSP.getText());
+                leer();
                 Principal.setSelectedIndex(1);
             }
             else
